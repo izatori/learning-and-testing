@@ -68,4 +68,15 @@ public class SyntaxBasics
         }
         Console.WriteLine();
     }
+    
+    // while loop
+    public void AddFiveUntilMaxReached(int start, int max)
+    {
+        while (start <= max)
+        {
+            Console.Write($"{start} ");
+            start += 5;
+        }
+        Console.WriteLine();
+    }
 }

@@ -65,3 +65,7 @@ Console.WriteLine($"t, e, s, t --> {syntax.CreateStringFromCharArray(testArray)}
 
 // for loop
 syntax.ShoutXTimes("Ahhh", 5);
+
+// while loop
+syntax.AddFiveUntilMaxReached(7, 27);
+syntax.AddFiveUntilMaxReached(5, 31);
