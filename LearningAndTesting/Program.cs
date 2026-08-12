@@ -50,3 +50,10 @@ Console.WriteLine();
 Console.WriteLine($"52 > 51? --> {syntax.IsFirstHigherNumber(52, 51)}");
 Console.WriteLine($"22 > 51? --> {syntax.IsFirstHigherNumber(22, 51)}");
 Console.WriteLine($"10 > 10? --> {syntax.IsFirstHigherNumber(10, 10)}");
+Console.WriteLine();
+
+// switch
+Console.WriteLine($"'g' --> {syntax.ConvertColorCharToString('g')}");
+Console.WriteLine($"'w' --> {syntax.ConvertColorCharToString('w')}");
+Console.WriteLine($"'b' --> {syntax.ConvertColorCharToString('b')}");
+Console.WriteLine($"'m' --> {syntax.ConvertColorCharToString('m')}");

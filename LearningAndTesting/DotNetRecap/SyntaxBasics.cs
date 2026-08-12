@@ -34,5 +34,15 @@ public class SyntaxBasics
     }
     
     // switch
-    
+    public string ConvertColorCharToString(char c)
+    {
+        switch (c)
+        {
+            case 'w': return "white";
+            case 'b': return "black";
+            case 'g': return "green";
+            case 'y': return "yellow";
+            default: return "unknown";
+        }
+    }
 }
