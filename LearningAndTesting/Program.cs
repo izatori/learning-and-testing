@@ -36,4 +36,12 @@ int convertedToInt = varTypes.CastDoubleToIntExplicit(valueAsDouble);
 
 Console.WriteLine($"Implicit Casting integer as double:  {convertedToDouble}");
 Console.WriteLine($"Explicit Casting double as integer: {convertedToInt}");
+Console.WriteLine();
 
+// Syntax Basics
+var syntax = new SyntaxBasics();
+
+// if..else..
+Console.WriteLine($"5, 12: {syntax.SubtractHigherFromLower(5, 12)}");
+Console.WriteLine($"5, -2: {syntax.SubtractHigherFromLower(5, -2)}");
+Console.WriteLine($"15, 12: {syntax.SubtractHigherFromLower(15, 12)}");

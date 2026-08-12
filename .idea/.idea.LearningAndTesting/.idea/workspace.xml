@@ -26,7 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/LearningAndTesting/DotNetRecap/DotNetBasics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LearningAndTesting/DotNetRecap/SyntaxBasics.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -34,61 +34,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000407071" />
-      <entry key="S2" value="1.0044917714640134" />
-      <entry key="S5" value="1.116297556834053" />
-      <entry key="S10" value="1.5169442745065544" />
-      <entry key="S30" value="7.7227295927285535" />
-      <entry key="S60" value="19.36982067727385" />
-      <entry key="M2" value="41.20006818552467" />
-      <entry key="M5" value="88.05140872680293" />
-      <entry key="M10" value="134.10475594553048" />
-      <entry key="M15" value="161.29024471377056" />
-      <entry key="M30" value="200.2068927514355" />
-      <entry key="H1" value="226.53780951549265" />
-      <entry key="H2" value="251.35239186634934" />
-      <entry key="H4" value="300.24404759834584" />
-      <entry key="D1" value="452.0499497229201" />
-      <entry key="W1" value="504.1189033220948" />
+      <entry key="MS100" value="3.9007663842116877E-59" />
+      <entry key="MS500" value="2.0807983186456224E-12" />
+      <entry key="S2" value="0.0012010479844682836" />
+      <entry key="S5" value="0.06872620379963074" />
+      <entry key="S10" value="0.3060370744575758" />
+      <entry key="S30" value="2.2003317182425297" />
+      <entry key="S60" value="7.148817410276006" />
+      <entry key="M2" value="16.49607985604481" />
+      <entry key="M5" value="39.775952819522395" />
+      <entry key="M10" value="70.97137862364046" />
+      <entry key="M15" value="100.07459263273955" />
+      <entry key="M30" value="169.9917911947963" />
+      <entry key="H1" value="243.73194139856386" />
+      <entry key="H2" value="306.8589728137026" />
+      <entry key="H4" value="378.347113141394" />
+      <entry key="D1" value="557.6167141362403" />
+      <entry key="W1" value="617.6123565463479" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0017121205494453815" />
-      <entry key="MS500" value="0.27970935080856135" />
-      <entry key="S2" value="0.7438178070301968" />
-      <entry key="S5" value="1.0784276140744087" />
-      <entry key="S10" value="1.4761661864154203" />
-      <entry key="S30" value="2.810424741582862" />
-      <entry key="S60" value="4.279247562832152" />
-      <entry key="M2" value="5.971672403419776" />
-      <entry key="M5" value="8.778316855376112" />
-      <entry key="M10" value="11.55256445284988" />
-      <entry key="M15" value="13.100562185021325" />
-      <entry key="M30" value="15.177168879843565" />
-      <entry key="H1" value="16.503758582308272" />
-      <entry key="H2" value="17.805921422020187" />
-      <entry key="H4" value="20.48710408149889" />
-      <entry key="D1" value="28.694565650178042" />
-      <entry key="W1" value="31.474057995669813" />
+      <entry key="MS100" value="1.000000000720641" />
+      <entry key="MS500" value="1.0148437559824202" />
+      <entry key="S2" value="1.3490486896280753" />
+      <entry key="S5" value="1.6581319500180742" />
+      <entry key="S10" value="1.8770280985929344" />
+      <entry key="S30" value="2.9727307196316297" />
+      <entry key="S60" value="4.479418894558215" />
+      <entry key="M2" value="6.574008745464352" />
+      <entry key="M5" value="10.283417680861875" />
+      <entry key="M10" value="13.722598894525076" />
+      <entry key="M15" value="16.33588930353135" />
+      <entry key="M30" value="21.85452693311851" />
+      <entry key="H1" value="27.19266363326764" />
+      <entry key="H2" value="31.487514951598502" />
+      <entry key="H4" value="35.90969348472343" />
+      <entry key="D1" value="46.08334530328053" />
+      <entry key="W1" value="49.378144123613744" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.001873566536623724" />
-      <entry key="MS500" value="0.3054990834319171" />
-      <entry key="S2" value="1.1207261521935161" />
-      <entry key="S5" value="1.8033738879605292" />
-      <entry key="S10" value="2.688004299657069" />
-      <entry key="S30" value="10.25706617179463" />
-      <entry key="S60" value="23.405855311783966" />
-      <entry key="M2" value="46.97583627960007" />
-      <entry key="M5" value="96.69127823509038" />
-      <entry key="M10" value="145.55855717106493" />
-      <entry key="M15" value="174.314066513163" />
-      <entry key="M30" value="215.33836542278135" />
-      <entry key="H1" value="243.0163480866006" />
-      <entry key="H2" value="269.1442985621149" />
-      <entry key="H4" value="320.7224110211281" />
-      <entry key="D1" value="480.7421194596354" />
-      <entry key="W1" value="535.5925727798399" />
+      <entry key="MS100" value="2.0584717773469797E-6" />
+      <entry key="MS500" value="0.07881760345177115" />
+      <entry key="S2" value="0.7982001278027668" />
+      <entry key="S5" value="1.4381886504299726" />
+      <entry key="S10" value="2.0113575143085765" />
+      <entry key="S30" value="5.042335798862526" />
+      <entry key="S60" value="11.506402623346386" />
+      <entry key="M2" value="22.967379705572057" />
+      <entry key="M5" value="49.98013168699032" />
+      <entry key="M10" value="84.6311187531309" />
+      <entry key="M15" value="116.35482039708113" />
+      <entry key="M30" value="191.8026757148584" />
+      <entry key="H1" value="270.8947559890668" />
+      <entry key="H2" value="338.3280243674847" />
+      <entry key="H4" value="414.2452521511548" />
+      <entry key="D1" value="603.6970656835534" />
+      <entry key="W1" value="666.9900207823803" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -111,7 +111,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "basic-syntax-recap",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,6 +157,34 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
