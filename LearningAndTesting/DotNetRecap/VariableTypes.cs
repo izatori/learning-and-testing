@@ -27,4 +27,16 @@ public class VariableTypes
         };
         return dataTypes;
     }
+    
+    // Type casting implicit and explicit
+    
+    public double CastIntToDoubleImplicit(int valueToCast)
+    {
+        return valueToCast;
+    }
+    
+    public int CastDoubleToIntExplicit(double valueToCast)
+    {
+        return (int) valueToCast;
+    }
 }
