@@ -6,13 +6,13 @@ using LearningAndTesting.DotNetRecap;
 
 Console.WriteLine("Hello, World!");
 
-// Create an instance of DotNetBasics
-var basics = new DotNetBasics();
+// Create an instance of VariableTypes
+var varTypes = new VariableTypes();
 
 // Fields, variables and Properties
-var retrievedProperty = basics.AccessibleProperty;
+var retrievedProperty = varTypes.AccessibleProperty;
 Console.WriteLine($"Property Value: {retrievedProperty}");
 
-var retrievedPrivate = basics.GetNotAccessibleField();
+var retrievedPrivate = varTypes.GetNotAccessibleField();
 Console.WriteLine($"Function-Return Value: {retrievedPrivate}");
 

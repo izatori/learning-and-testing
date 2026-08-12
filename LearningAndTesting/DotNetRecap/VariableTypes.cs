@@ -1,9 +1,9 @@
 ﻿namespace LearningAndTesting.DotNetRecap;
 
-public class DotNetBasics
+public class VariableTypes
 {
     // Fields, variables and properties
-    private int _notAccessibleField = 1; // Field --> class variable --> _camelCase
+    private readonly int _notAccessibleField = 1; // Field --> class variable --> _camelCase
     public int AccessibleProperty { get; set; } = 2; // Property --> public class variable --> PascalCase
     // Note: { get; set; } get: necessary to retrieve val from outside, set: necessary to change val from outside
     
