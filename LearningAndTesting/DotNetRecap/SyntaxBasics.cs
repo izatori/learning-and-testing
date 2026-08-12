@@ -26,4 +26,13 @@ public class SyntaxBasics
             return 0; // Note: unnecessary
         }
     }
+    
+    // Short-Hand if else statement
+    public string IsFirstHigherNumber(int first, int second)
+    {
+        return (first > second) ? "yes" : "no";
+    }
+    
+    // switch
+    
 }

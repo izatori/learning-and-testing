@@ -45,3 +45,8 @@ var syntax = new SyntaxBasics();
 Console.WriteLine($"5, 12: {syntax.SubtractHigherFromLower(5, 12)}");
 Console.WriteLine($"5, -2: {syntax.SubtractHigherFromLower(5, -2)}");
 Console.WriteLine($"15, 12: {syntax.SubtractHigherFromLower(15, 12)}");
+Console.WriteLine();
+
+Console.WriteLine($"52 > 51? --> {syntax.IsFirstHigherNumber(52, 51)}");
+Console.WriteLine($"22 > 51? --> {syntax.IsFirstHigherNumber(22, 51)}");
+Console.WriteLine($"10 > 10? --> {syntax.IsFirstHigherNumber(10, 10)}");
