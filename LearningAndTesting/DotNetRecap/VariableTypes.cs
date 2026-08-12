@@ -12,4 +12,19 @@ public class VariableTypes
         var notAccessibleVariable = _notAccessibleField; // Variable --> camelCase
         return notAccessibleVariable;
     }
+
+    public string[] GetAllDatatypes()
+    {
+        string[] dataTypes = new[]
+        {
+            "int (integer standard, e.g. 5)",
+            "long (integer long, e.g. 5)",
+            "float (floating point standard, e.g. 5.2)",
+            "double (floating point large, e.g. 5.2D)",
+            "char (single character, e.g. 'A')",
+            "string (character string, e.g. \"Text\")",
+            "bool (boolean, e.g. false)"
+        };
+        return dataTypes;
+    }
 }
