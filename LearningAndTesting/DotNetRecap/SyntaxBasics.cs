@@ -58,4 +58,14 @@ public class SyntaxBasics
         
         return createdString;
     }
+    
+    // for loop
+    public void ShoutXTimes(string shout, int times)
+    {
+        for (int i = 0; i < times; i++)
+        {
+            Console.Write($"{shout} ");
+        }
+        Console.WriteLine();
+    }
 }
