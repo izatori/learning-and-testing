@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\LearningAndTesting.Domain\LearningAndTesting.Domain.csproj" />
+        <ProjectReference Include="..\LearningAndTesting.Application\LearningAndTesting.Application.csproj" />
+    </ItemGroup>
+
+</Project>

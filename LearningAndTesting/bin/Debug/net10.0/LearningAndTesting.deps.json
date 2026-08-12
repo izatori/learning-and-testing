@@ -7,14 +7,62 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "LearningAndTesting/1.0.0": {
+        "dependencies": {
+          "LearningAndTesting.Presentation": "1.0.0"
+        },
         "runtime": {
           "LearningAndTesting.dll": {}
+        }
+      },
+      "LearningAndTesting.Application/1.0.0": {
+        "dependencies": {
+          "LearningAndTesting.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LearningAndTesting.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LearningAndTesting.Domain/1.0.0": {
+        "runtime": {
+          "LearningAndTesting.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LearningAndTesting.Presentation/1.0.0": {
+        "dependencies": {
+          "LearningAndTesting.Application": "1.0.0"
+        },
+        "runtime": {
+          "LearningAndTesting.Presentation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "LearningAndTesting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LearningAndTesting.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LearningAndTesting.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LearningAndTesting.Presentation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

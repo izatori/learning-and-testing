@@ -13,3 +13,11 @@ C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\obj\Debug\net1
 C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\obj\Debug\net10.0\LearningAndTesting.pdb
 C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\obj\Debug\net10.0\LearningAndTesting.genruntimeconfig.cache
 C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\obj\Debug\net10.0\ref\LearningAndTesting.dll
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\bin\Debug\net10.0\LearningAndTesting.Application.dll
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\bin\Debug\net10.0\LearningAndTesting.Domain.dll
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\bin\Debug\net10.0\LearningAndTesting.Presentation.dll
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\bin\Debug\net10.0\LearningAndTesting.Presentation.pdb
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\bin\Debug\net10.0\LearningAndTesting.Application.pdb
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\bin\Debug\net10.0\LearningAndTesting.Domain.pdb
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\obj\Debug\net10.0\LearningAndTesting.csproj.AssemblyReference.cache
+C:\Users\d-vg\RiderProjects\LearningAndTesting\LearningAndTesting\obj\Debug\net10.0\Learning.7D6D13DF.Up2Date

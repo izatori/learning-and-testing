@@ -2,7 +2,7 @@
 
 // Hello World
 
-using LearningAndTesting.DotNetRecap;
+using LearningAndTesting.Domain.DomainServices;
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("");

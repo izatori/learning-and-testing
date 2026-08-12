@@ -1,4 +1,4 @@
-﻿namespace LearningAndTesting.DotNetRecap;
+namespace LearningAndTesting.Domain.DomainServices;
 
 public class SyntaxBasics
 {

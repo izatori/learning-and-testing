@@ -1,11 +1,66 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "LearningAndTesting.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LearningAndTesting.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LearningAndTesting.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearningAndTesting.Application.dll": {}
+        }
+      },
+      "LearningAndTesting.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/LearningAndTesting.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearningAndTesting.Domain.dll": {}
+        }
+      },
+      "LearningAndTesting.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LearningAndTesting.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LearningAndTesting.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LearningAndTesting.Presentation.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LearningAndTesting.Application/1.0.0": {
+      "type": "project",
+      "path": "../LearningAndTesting.Application/LearningAndTesting.Application.csproj",
+      "msbuildProject": "../LearningAndTesting.Application/LearningAndTesting.Application.csproj"
+    },
+    "LearningAndTesting.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LearningAndTesting.Domain/LearningAndTesting.Domain.csproj",
+      "msbuildProject": "../LearningAndTesting.Domain/LearningAndTesting.Domain.csproj"
+    },
+    "LearningAndTesting.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../LearningAndTesting.Presentation/LearningAndTesting.Presentation.csproj",
+      "msbuildProject": "../LearningAndTesting.Presentation/LearningAndTesting.Presentation.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "LearningAndTesting.Presentation >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\d-vg\\.nuget\\packages\\": {},
@@ -40,7 +95,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\d-vg\\RiderProjects\\LearningAndTesting\\LearningAndTesting.Presentation\\LearningAndTesting.Presentation.csproj": {
+              "projectPath": "C:\\Users\\d-vg\\RiderProjects\\LearningAndTesting\\LearningAndTesting.Presentation\\LearningAndTesting.Presentation.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
