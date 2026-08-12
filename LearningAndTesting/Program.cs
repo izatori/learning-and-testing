@@ -57,3 +57,8 @@ Console.WriteLine($"'g' --> {syntax.ConvertColorCharToString('g')}");
 Console.WriteLine($"'w' --> {syntax.ConvertColorCharToString('w')}");
 Console.WriteLine($"'b' --> {syntax.ConvertColorCharToString('b')}");
 Console.WriteLine($"'m' --> {syntax.ConvertColorCharToString('m')}");
+Console.WriteLine();
+
+// for-each
+char[] testArray = new []{'t', 'e', 's', 't'};
+Console.WriteLine($"t, e, s, t --> {syntax.CreateStringFromCharArray(testArray)}");

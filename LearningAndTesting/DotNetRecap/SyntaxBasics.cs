@@ -45,4 +45,17 @@ public class SyntaxBasics
             default: return "unknown";
         }
     }
+    
+    // foreach loop
+    public string CreateStringFromCharArray(char[] chars)
+    {
+        string createdString = "";
+        
+        foreach (char c in chars)
+        {
+            createdString += c;
+        }
+        
+        return createdString;
+    }
 }
